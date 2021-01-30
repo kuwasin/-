@@ -1,0 +1,65 @@
+header {
+  background-color: black;
+  height:50px;
+  width: 100%;
+  display: flex;
+  font-size: 13px;
+}
+
+body{
+  font-family: "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;}
+  
+h1 a img{
+  background-color: #EA0053;
+  width: 250px;
+    height: 50px;
+}
+
+
+nav ul li {
+  display: inline-block;
+  line-height: 50px;
+ 
+  
+}
+nav ul li:nth-of-type(2){
+  color: #ffffff;
+  padding:0 20px 0 40px;
+    background: url(images/arrow1.png) no-repeat 10px center / auto 25px;
+}
+nav ul li a{
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 13px;
+  padding: 0 20px;
+}
+nav ul li a:hover{
+  background-color: #EA0053 ;
+  transition: background-color 1s;
+}
+.icon {
+  display: flex;
+  margin-left: auto;
+  clear: both;
+  margin-right: 20px; 
+}
+
+ .icon li{
+  list-style: none;
+padding-top: 10px;
+}
+.icon img{
+  width: 30px;
+  margin-right: 10px;
+  height: auto;
+  max-width: 100%;
+}
+div {
+width: 100%;
+}
+div img{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
